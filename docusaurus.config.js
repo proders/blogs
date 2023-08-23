@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'proder',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -27,9 +27,13 @@ const config = {
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
+  // i18n: {
+  //   defaultLocale: 'en',
+  //   locales: ['en'],
+  // },
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "zh-Hans",
+    locales: ["zh-Hans"],
   },
 
   presets: [
@@ -64,9 +68,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'proder',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'proder',
           src: 'img/logo.svg',
         },
         items: [
