@@ -1,7 +1,7 @@
 ---
 id: introduction
-slug: /knowledgeStructure
-title: 技术笔记简介2333
+slug: /knowledgeStructure/introduction
+title: 技术笔记简介222
 keywords:
   - 前端
   - Vue
@@ -14,9 +14,12 @@ keywords:
 
 - Web
 - 前端
+- 后端
 - Vue
 - React
 - JavaScript（TypeScript）
+- 安卓
+- 逆向
 - HTTP
 
 **做到即查即用，能复制粘贴解决的，就绝不百度。**

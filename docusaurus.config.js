@@ -3,15 +3,16 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const path = require("path");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'proder',
-  tagline: 'Dinosaurs are cool',
+  tagline: '回首向往萧瑟处，也无风雨也无晴',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://your-docusaurus-test-site.com', // 当前页面的url，setting里面 都可以看到部署后的url
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -61,7 +62,6 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -74,11 +74,32 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
+     /*     {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
+          },*/
+          {
+            to: '/docs/knowledgeStructure/',
+            label: '知识体系',
+            position: 'left',
+            logo:{
+              alt: '知识体系',
+              src: 'img/logo.svg',
+              // srcDark?: string;
+              // href?: string;
+              width:'100px',
+              height:'100px',
+              // target?: string;
+              // style?: object;
+              // className?: string;
+            }
+          },
+          {
+            to: '/docs/life/',
+            label: '生活',
+            position: 'left',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

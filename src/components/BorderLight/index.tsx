@@ -1,5 +1,5 @@
 import React from 'react';
-// import './styles.module.css'
+import './styles.module.scss'
 export default function (props) {
     return (
         <div className='outer'>

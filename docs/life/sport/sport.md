@@ -1,7 +1,7 @@
 ---
-id: introduction
-slug: /knowledgeStructure
-title: 技术笔记简介2333
+id: sport
+slug: /life
+title: 户外运动
 keywords:
   - 前端
   - Vue

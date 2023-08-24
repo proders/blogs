@@ -8,6 +8,7 @@ bin-release/
 /node_modules
 /.docusaurus
 /.idea
+/build
 
 # Other files and folders
 .settings/
