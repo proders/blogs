@@ -23,6 +23,7 @@ const sidebars = {
       label: '运动',
       items: [
         'life/sport/sport',
+        'life/log'
       ],
     },
   ],
@@ -31,8 +32,16 @@ const sidebars = {
     {
       type: 'category',
       label: 'vue',
+      link: {
+        type: 'generated-index',
+        title: 'vue',
+        description: '这是一个引导页面',
+        slug: '/category/docusaurus-vue',
+        keywords: ['guides'],
+      },
       items: [
-          'knowledgeStructure/vue/index',
+          // 'knowledgeStructure/vue/index',
+          'knowledgeStructure/vue/test',
           'knowledgeStructure/vue/vue'
       ],
     },

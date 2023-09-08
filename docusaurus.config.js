@@ -3,7 +3,6 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const path = require("path");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -82,7 +81,7 @@ const config = {
           },*/
           {
             to: '/docs/knowledgeStructure/',
-            label: '知识体系',
+            label: '💼知识体系🚴🏻‍♀️',
             position: 'left',
             logo:{
               alt: '知识体系',
@@ -98,7 +97,7 @@ const config = {
           },
           {
             to: '/docs/life/',
-            label: '生活',
+            label: '👨🏻‍🌾生活📽️',
             position: 'left',
           },
           {to: '/blog', label: 'Blog', position: 'left'},

@@ -8,6 +8,10 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
 import BrowserWindow from "@site/src/components/BrowserWindow";
 import BorderLight from "@site/src/components/BorderLight";
+import HighLight from "@site/src/components/HighLight";
+import Confetti from "@site/src/components/Confetti";
+import TypingEffect from "@site/src/components/TypingEffect";
+import ReactSlick from "@site/src/components/ReactSlick";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -20,7 +24,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            文档阅读 5min ⏱️
           </Link>
         </div>
       </div>
@@ -32,13 +36,16 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
           <BrowserWindow>测试哈哈哈哈</BrowserWindow>
-          {/*<BorderLight>ttt</BorderLight>*/}
+          <HighLight color='#25c2a0'>高亮当前文本</HighLight>
+          <Confetti />
+          <TypingEffect />
+          <ReactSlick />
       </main>
     </Layout>
   );

@@ -2,6 +2,9 @@
 id: vue
 slug: /knowledgeStructure/vue/vue
 title: vue
+tags:
+  - vue
+  - test
 keywords:
   - 前端
 ---
