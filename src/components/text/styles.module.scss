@@ -1,0 +1,23 @@
+
+.container {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #000;
+  filter: contrast(30);
+}
+.text {
+  font-size: 100px;
+  letter-spacing: -50px;
+  color: #1fd9a7;
+  animation: showup 5s linear forwards;
+}
+@keyframes showup {
+  0% {
+    filter: blur(10px);
+  }
+  100% {
+    letter-spacing: 10px;
+    filter: blur(2px);
+  }
+}
+

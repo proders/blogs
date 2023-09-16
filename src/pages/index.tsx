@@ -12,6 +12,7 @@ import HighLight from "@site/src/components/HighLight";
 import Confetti from "@site/src/components/Confetti";
 import TypingEffect from "@site/src/components/TypingEffect";
 import ReactSlick from "@site/src/components/ReactSlick";
+import Text from "@site/src/components/text";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -22,11 +23,14 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            文档阅读 5min ⏱️
+              className="button button--secondary button--lg"
+              to="/docs/intro">
+            <BorderLight >
+              文档阅读 5min ⏱️
+            </BorderLight>
           </Link>
         </div>
+
       </div>
     </header>
   );
@@ -41,11 +45,13 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <BorderLight >测试00000000000</BorderLight>
           <BrowserWindow>测试哈哈哈哈</BrowserWindow>
           <HighLight color='#25c2a0'>高亮当前文本</HighLight>
           <Confetti />
           <TypingEffect />
           <ReactSlick />
+        <Text>show Time333333333333 !</Text>
       </main>
     </Layout>
   );

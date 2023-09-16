@@ -33,11 +33,11 @@ const sidebars = {
       type: 'category',
       label: 'vue',
       link: {
-        type: 'generated-index',
-        title: 'vue',
-        description: '这是一个引导页面',
-        slug: '/category/docusaurus-vue',
-        keywords: ['guides'],
+        type: 'generated-index', // 引导页类型
+        title: 'vue引导页', //名称
+        description: '这是一个引导页面', //描述
+        slug: '/category/docusaurus-vue', //显示路径
+        keywords: ['guides'], //标签
       },
       items: [
           // 'knowledgeStructure/vue/index',
