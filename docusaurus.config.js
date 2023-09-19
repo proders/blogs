@@ -14,15 +14,16 @@ const config = {
     url: 'https://proders.github.io', // 当前页面的url，setting里面 都可以看到部署后的url
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/blogs/',
+    baseUrl: '/blogs',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'proders', // Usually your GitHub org/user name.
     projectName: 'blogs', // Usually your repo name.
-    // deploymentBranch: 'gh-pages',
+    deploymentBranch: 'gh-pages',
     trailingSlash:true,
-    onBrokenLinks: 'throw',
+
+    onBrokenLinks: 'ignore',
     onBrokenMarkdownLinks: 'warn',
 
     // Even if you don't use internalization, you can use this field to set useful
