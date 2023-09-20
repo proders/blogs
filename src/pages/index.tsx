@@ -24,7 +24,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
               className="button button--secondary button--lg"
-              to="/docs/intro">
+              to="/docs/life">
             <BorderLight >
               文档阅读 5min ⏱️
             </BorderLight>
@@ -45,13 +45,13 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        <BorderLight >测试00000000000</BorderLight>
+        <BorderLight >没有想法啊</BorderLight>
           <BrowserWindow>测试哈哈哈哈</BrowserWindow>
           <HighLight color='#25c2a0'>高亮当前文本</HighLight>
           <Confetti />
           <TypingEffect />
           <ReactSlick />
-        <Text>show Time333333333333 !</Text>
+        {/*<Text>show Time333333333333 !</Text>*/}
       </main>
     </Layout>
   );
