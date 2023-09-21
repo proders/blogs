@@ -1,10 +1,8 @@
 import React from 'react';
-import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
 import styles from './index.module.css';
 import BrowserWindow from "@site/src/components/BrowserWindow";
 import BorderLight from "@site/src/components/BorderLight";
@@ -16,27 +14,35 @@ import Text from "@site/src/components/text";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div>
+      <div className={styles.heroBanner}>
+          <div className={styles.leftSvg} >
+              <img src='img/svg/color-scheme-left.svg' />
+          </div>
 
+          <div className="container">
+              <h1 className="hero__title">{siteConfig.title}</h1>
+              <p className="hero__subtitle">{siteConfig.tagline}</p>
+              <div className={styles.buttons}>
+                  <Link
+                      className="button button--secondary button--lg"
+                      to="/docs/life">
+                      <BorderLight >
+                          文档阅读 5min ⏱️
+                      </BorderLight>
+                  </Link>
+              </div>
+          </div>
+
+          <div className={styles.rightSvg} >
+              <img src='img/svg/color-scheme-right.svg'/>
+          </div>
       </div>
+ /*   <header className={clsx('hero hero--primary', styles.heroBanner)}>
 
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-              className="button button--secondary button--lg"
-              to="/docs/life">
-            <BorderLight >
-              文档阅读 5min ⏱️
-            </BorderLight>
-          </Link>
-        </div>
-
-      </div>
     </header>
+      */
   );
 }
 
