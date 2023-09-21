@@ -18,6 +18,10 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <div>
+
+      </div>
+
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
@@ -50,7 +54,7 @@ export default function Home(): JSX.Element {
           <HighLight color='#25c2a0'>高亮当前文本</HighLight>
           <Confetti />
           <TypingEffect />
-          <ReactSlick />
+          {/*<ReactSlick />*/}
         {/*<Text>show Time333333333333 !</Text>*/}
       </main>
     </Layout>

@@ -29,6 +29,10 @@
   font-size: 14px;
 }
 
+[data-theme='light'] .navbar{
+  backdrop-filter: blur(6px);
+  background-color: #ffffffb3;
+}
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
