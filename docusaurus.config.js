@@ -102,6 +102,11 @@ const config = {
                         label: '👨🏻‍🌾生活📽️',
                         position: 'left',
                     },
+                    {
+                        to: '/docs/log/2023-11',
+                        label: '日志📽️',
+                        position: 'left',
+                    },
                     {to: '/blog', label: 'Blog', position: 'left'},
                     {
                         href: 'https://github.com/facebook/docusaurus',
