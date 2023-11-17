@@ -1,5 +1,5 @@
 # 反穿武功山~😊
-![mountain_3.jpg](image%2Fmountain_3.jpg)
+![mountain_3.jpg](image/mountain_3.jpg)
 ## Info
 
 | Date             | Weather       | Mood | people           |
@@ -16,7 +16,7 @@
 #### 练舞
  >北北和豪哥一起排练舞蹈，准备在武功山，山脚拍视频。
  
-![mountain_5.jpg](image%2Fmountain_5.jpg)
+![mountain_5.jpg](image/mountain_5.jpg)
 
 #### 火车硬卧初体验
 总的来说，勉勉强强没想象的那么糟糕。但也好不到那里去。不能洗脚、噪音大，火车颠簸严重，反复被火车急刹弄醒，半夜睡不着觉。
@@ -25,16 +25,16 @@
 ## 爬山
 这次主要是反穿武功山，累计耗费大约11个小时，从 龙山村二字头 到 金顶山脚下 。
 大概从15：30到凌晨 3：00. 累、软、脚痛。后面感觉脚疼得就坚持不下去，但来自朋友的相互打气加油，一起前行。
-![mountain_1.jpg](image%2Fmountain_1.jpg)
+![mountain_1.jpg](image/mountain_1.jpg)
 
 ## 过程
 不得不說，这个过程是艰难的，爬山一座又一座💪。
 每次的目标就是距离金顶山还有n公里,看着距离一点一点的接近。
 感叹就是，年轻真抗造。
-![mountain_2.jpg](image%2Fmountain_2.jpg)
+![mountain_2.jpg](image/mountain_2.jpg)
 ## 金顶山
 体验就是上山风真大，温度真低，停下来感觉很冷很冷。很好看，可是当时的感觉就是冷、太冷了都不想拍什么照片，只想下山。
-![mountain_6.jpg](image%2Fmountain_6.jpg)
+![mountain_6.jpg](image/mountain_6.jpg)
 
 ## 总结
 
