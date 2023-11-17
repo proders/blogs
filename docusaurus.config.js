@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
     title: 'proder',
     tagline: '回首向往萧瑟处，也无风雨也无晴',
-    favicon: 'img/favicon.ico',
+    favicon: 'img/avg/avatar.svg',
 
     // Set the production url of your site here
     url: 'https://proders.github.io', // 当前页面的url，setting里面 都可以看到部署后的url
@@ -83,7 +83,7 @@ const config = {
                          },*/
                     {
                         to: '/docs/knowledgeStructure/',
-                        label: '💼知识体系🚴🏻‍♀️',
+                        label: '💼知识体系',
                         position: 'left',
                         logo: {
                             alt: '知识体系',
@@ -99,15 +99,15 @@ const config = {
                     },
                     {
                         to: '/docs/life/',
-                        label: '👨🏻‍🌾生活📽️',
+                        label: '👨🏻‍🌾生活',
                         position: 'left',
                     },
                     {
                         to: '/docs/log/2023-11',
-                        label: '日志📽️',
+                        label: '📽️日志',
                         position: 'left',
                     },
-                    {to: '/blog', label: 'Blog', position: 'left'},
+                    {to: '/blog', label: '🚴Blog', position: 'left'},
                     {
                         href: 'https://github.com/facebook/docusaurus',
                         label: 'GitHub',

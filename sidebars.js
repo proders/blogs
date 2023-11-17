@@ -23,7 +23,15 @@ const sidebars = {
       label: '运动',
       items: [
         'life/sport/sport',
+        'life/sport/badminton',
         // 'life/log',
+        // 'life/travel/WugongMountain'
+      ],
+    },
+    {
+      type: 'category',
+      label: '旅游',
+      items: [
         'life/travel/WugongMountain'
       ],
     },
