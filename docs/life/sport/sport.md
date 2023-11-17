@@ -1,4 +1,4 @@
----
+      ---
 id: sport
 slug: /life
 title: 户外运动
