@@ -9,8 +9,7 @@ import BorderLight from "@site/src/components/BorderLight";
 import HighLight from "@site/src/components/HighLight";
 import Confetti from "@site/src/components/Confetti";
 import TypingEffect from "@site/src/components/TypingEffect";
-import ReactSlick from "@site/src/components/ReactSlick";
-import Text from "@site/src/components/text";
+
 
 function HomepageHeader() {
     const {siteConfig} = useDocusaurusContext();
