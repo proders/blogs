@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
     title: 'proder',
     tagline: '回首向往萧瑟处，也无风雨也无晴',
-    favicon: 'img/avg/avatar.svg',
+    favicon: 'img/svg/avatar.svg',
 
     // Set the production url of your site here
     url: 'https://proders.github.io', // 当前页面的url，setting里面 都可以看到部署后的url
@@ -72,7 +72,7 @@ const config = {
                 title: 'proder',
                 logo: {
                     alt: 'proder',
-                    src: 'img/logo.svg',
+                    src: 'img/svg/avatar.svg',
                 },
                 items: [
                     /*     {
