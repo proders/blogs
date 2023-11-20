@@ -2,7 +2,7 @@ import React from 'react';
 import style from './styles.module.css'
 
 export default function BrowserWindow(props) {
-    const url = props.url || 'https://spacexcode.com'
+    const url = props.url || 'https://proders.github.io'
     const bodyPad = props.bodyPad || '1rem'
     const bodyBg = props.bodyBg || 'transparent'
     return (
