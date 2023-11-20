@@ -17,7 +17,7 @@ function HomepageHeader() {
     return (
         <div className={styles.heroBanner}>
             <div className={styles.leftSvg}>
-                <img src='img/svg/color-scheme-left.svg'/>
+                <img src={'img/svg/color-scheme-left.svg'} alt={'left'}/>
             </div>
 
             <div className="container">
@@ -35,7 +35,7 @@ function HomepageHeader() {
             </div>
 
             <div className={styles.rightSvg}>
-                <img src='img/svg/color-scheme-right.svg'/>
+                <img src={'img/svg/color-scheme-right.svg'} alt={'right'}/>
             </div>
         </div>
         /*   <header className={clsx('hero hero--primary', styles.heroBanner)}>
