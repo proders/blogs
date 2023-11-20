@@ -107,6 +107,11 @@ const config = {
                         label: '📽️日志',
                         position: 'left',
                     },
+                    {
+                        to: '/map/',
+                        label: '👨🏻‍🌾map',
+                        position: 'left',
+                    },
                     {to: '/blog', label: '🚴Blog', position: 'left'},
                     {
                         href: 'https://github.com/facebook/docusaurus',
