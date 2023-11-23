@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'proder',
-    tagline: '回首向往萧瑟处，也无风雨也无晴',
+    tagline: '山海自有归期，\n' + '风雨自有相逢。',
     favicon: 'img/svg/avatar.svg',
 
     // Set the production url of your site here
@@ -107,11 +107,11 @@ const config = {
                         label: '📽️日志',
                         position: 'left',
                     },
-                    {
+           /*         {
                         to: '/map/',
                         label: '👨🏻‍🌾map',
                         position: 'left',
-                    },
+                    },*/
                     {to: '/blog', label: '🚴Blog', position: 'left'},
                     {
                         href: 'https://github.com/facebook/docusaurus',

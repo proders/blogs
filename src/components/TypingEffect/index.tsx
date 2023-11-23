@@ -4,19 +4,27 @@
  * @Date: 2023-9-8
  */
 import React, {useEffect} from "react";
-import styles from './index.module.css'
-const TypingEffect = () => {
-    const createWriter = (text :any = 'Lorem ipsum dolor sit amet.') => {
-        const typeWriter = document.getElementById('typewriter-text');
-        typeWriter.innerHTML = text;
-        typeWriter.style.setProperty('--characters--', text.length);
-    };
-    useEffect(()=>{
-        createWriter();
-    },[])
-    return     (
-        <div className={styles.typewriterEffect}>
-            <div className={styles.text} id="typewriter-text"></div>
+import Typed from 'typed.js';
+
+const TypingEffect = (props: {text:string}) => {
+    const el = React.useRef(null);
+
+  useEffect(() => {
+        const typed = new Typed(el.current, {
+            strings: [props.text],
+            typeSpeed: 110,
+            loop: true,
+            loopCount: Infinity,
+        });
+
+        return () => {
+            // Destroy Typed instance during cleanup to stop animation
+            typed.destroy();
+        };
+    }, []);
+    return  (
+        <div className="App">
+            <span ref={el} />
         </div>
     );
 }

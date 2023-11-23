@@ -21,14 +21,18 @@ function HomepageHeader() {
             </div>
 
             <div className="container">
-                <h1 className="hero__title">{siteConfig.title}</h1>
-                <p className="hero__subtitle">{siteConfig.tagline}</p>
+                <h1 className="hero__title">{'辞暮'}</h1>
+                <p className="hero__subtitle">
+                    {/*{siteConfig.tagline}*/}
+                    <TypingEffect text={siteConfig.tagline}/>
+                </p>
                 <div className={styles.buttons}>
                     <Link
+                        style={{padding:0,border:0}}
                         className="button button--secondary button--lg"
                         to="/docs/life">
                         <BorderLight>
-                            文档阅读 5min ⏱️
+                            文档阅读 6min ⏱️
                         </BorderLight>
                     </Link>
                 </div>
@@ -54,13 +58,10 @@ export default function Home(): JSX.Element {
             <HomepageHeader/>
             <main>
                 <HomepageFeatures/>
-                <BorderLight>没有想法啊</BorderLight>
+                {/*<BorderLight>没有想法啊</BorderLight>*/}
                 <BrowserWindow>测试哈哈哈哈</BrowserWindow>
                 <HighLight color='#25c2a0'>高亮当前文本</HighLight>
                 <Confetti/>
-                <TypingEffect/>
-                {/*<ReactSlick />*/}
-                {/*<Text>show Time333333333333 !</Text>*/}
             </main>
         </Layout>
     );
