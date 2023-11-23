@@ -65,7 +65,7 @@ const config = {
     ],
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-        ({
+        {
             // Replace with your project's social card
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
@@ -169,32 +169,20 @@ const config = {
                 theme: lightCodeTheme,
                 darkTheme: darkCodeTheme,
             },
-            algolia: {
+       /*     algolia:{
                 appId: 'YOUR_APP_ID',
                 apiKey: 'YOUR_SEARCH_API_KEY',
                 indexName: 'YOUR_INDEX_NAME',
-                // Optional: see doc section below
-             /*   contextualSearch: true,
-                externalUrlRegex: 'external\\.com|domain\\.com',
-                replaceSearchResultPathname: {
-                    from: '/docs/', // or as RegExp: /\/docs\//
-                    to: '/',
-                },
-                // Optional: Algolia search parameters
-                searchParameters: {},
-                // Optional: path for search page that enabled by default (`false` to disable it)
-                searchPagePath: 'search',*/
-            },
-        }),
+            }*/
+        },
     titleDelimiter: '🦖', // 默认为 `|`
-
     themes: [
-        '@docusaurus/theme-search-algolia',
-        [
+        // '@docusaurus/theme-search-algolia',
+ /*       [
             "@easyops-cn/docusaurus-search-local", {
             hashed: true,
             language: ["en", "zh"],
-        }],
+        }],*/
     ],
     plugins: ['docusaurus-plugin-sass'],
 };
