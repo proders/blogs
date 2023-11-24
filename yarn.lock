@@ -3457,6 +3457,11 @@
   dependencies:
     "@types/estree" "*"
 
+"@types/bmapgl@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.npmmirror.com/@types/bmapgl/-/bmapgl-0.0.7.tgz#005bd208b782f1c611964f50f58f792aa239b243"
+  integrity sha512-3R0wFbZtynfHBJq0v477amaNH3t2u2CzBo46ViIPDdOTEJJ+Ma/ql4X8tS2XjDZcZhDAr6QDWoqV8SZvp6STvA==
+
 "@types/body-parser@*":
   version "1.19.2"
   resolved "https://registry.npmmirror.com/@types/body-parser/-/body-parser-1.19.2.tgz"
@@ -7852,6 +7857,11 @@ map-obj@^4.0.0:
   resolved "https://registry.npmmirror.com/map-obj/-/map-obj-4.3.0.tgz#9304f906e93faae70880da102a9f1df0ea8bb05a"
   integrity sha512-hdN1wVrZbb29eBGiGjJbeP8JbKjq1urkHJ/LIP/NY48MZ1QVXUsQBV1G1zvYFHn1XE06cwjBsOI2K3Ulnj1YXQ==
 
+mapvgl@^1.0.0-beta.188:
+  version "1.0.0-beta.188"
+  resolved "https://registry.npmmirror.com/mapvgl/-/mapvgl-1.0.0-beta.188.tgz#5bfb81e389c356c42029b5bd807c2bfd5696bd8d"
+  integrity sha512-nROfH5DwE2+RQJ8rs0bksXuY0u9is135eT2/HOWIIo+2aJWygyv9buV2WxmUoZDkt8Z9fSsz7ltiFiUHSsgklw==
+
 mark.js@^8.11.1:
   version "8.11.1"
   resolved "https://registry.npmmirror.com/mark.js/-/mark.js-8.11.1.tgz#180f1f9ebef8b0e638e4166ad52db879beb2ffc5"
@@ -9862,6 +9872,14 @@ react-base16-styling@^0.6.0:
     lodash.curry "^4.0.1"
     lodash.flow "^3.3.0"
     pure-color "^1.2.0"
+
+react-bmapgl@^0.2.26:
+  version "0.2.26"
+  resolved "https://registry.npmmirror.com/react-bmapgl/-/react-bmapgl-0.2.26.tgz#f9bacbd497c47438247a517d75b5cceee0d75da8"
+  integrity sha512-KuR6Us9fO5PadFgObHF66rMcEmk3cWoDZz1It9k57ilPAdI330zh19b61TM/2e7ZcfOjDwYH33qs2Kfl2dRgxg==
+  dependencies:
+    mapvgl "^1.0.0-beta.188"
+    shallowequal "^1.1.0"
 
 react-dev-utils@^12.0.1:
   version "12.0.1"

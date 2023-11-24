@@ -107,11 +107,11 @@ const config = {
                         label: '📽️日志',
                         position: 'left',
                     },
-           /*         {
+                    {
                         to: '/map/',
                         label: '👨🏻‍🌾map',
                         position: 'left',
-                    },*/
+                    },
                     {to: '/blog', label: '🚴Blog', position: 'left'},
                     {
                         href: 'https://github.com/facebook/docusaurus',
@@ -175,6 +175,7 @@ const config = {
                 indexName: 'YOUR_INDEX_NAME',
             }*/
         },
+    // 5hvFnIXmHKgIOCF7F4rRNVNfFDyllgvR
     titleDelimiter: '🦖', // 默认为 `|`
     themes: [
         // '@docusaurus/theme-search-algolia',
