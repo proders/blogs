@@ -21,13 +21,13 @@ const BaiDuMap = (props) => {
                      }}
                      {...props}
                 >
-                    <Marker
+                   {/* <Marker
                         // @ts-ignore
                         position={new BMapGL.Point(116.404449, 39.914889)}
                         map={Map}
                         icon={''}
                         // onClick={()=>Map.openInfoWindow(infoWindow, point);}
-                    />
+                    />*/}
                     {/* 3D控件*/}
                     <NavigationControl map={Map}/>
                     {/* 城市选择控件*/}
