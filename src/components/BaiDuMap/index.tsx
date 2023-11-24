@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import {CityListControl, InfoWindow, MapTypeControl, Marker, NavigationControl, ZoomControl} from "react-bmapgl";
 
-const BaiDuMap = (props) => {
+const BaiDuMap = (props: React.JSX.IntrinsicAttributes) => {
     const [MapComponent, setMapComponent] = useState(null);
 
     useEffect(() => {

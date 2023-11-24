@@ -69,6 +69,7 @@ const sidebars = {
       },
       items: [
         'log/2023-11/13',
+        'log/2023-11/25',
       ],
     },
     {
