@@ -12,9 +12,7 @@ import styles from './index.module.scss'
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 
-const emMapType = {
-    BMAP_EARTH_MAP: 'BMAP_EARTH_MAP'
-}
+
 const BaiDuMap = (props: any) => {
     const [MapComponent, setMapComponent] = useState(null);
     const mapRef = useRef(null);
