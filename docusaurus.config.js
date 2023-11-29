@@ -175,7 +175,6 @@ const config = {
                 indexName: 'YOUR_INDEX_NAME',
             }*/
         },
-    // 5hvFnIXmHKgIOCF7F4rRNVNfFDyllgvR
     titleDelimiter: '🦖', // 默认为 `|`
     themes: [
         // '@docusaurus/theme-search-algolia',
@@ -185,6 +184,9 @@ const config = {
             language: ["en", "zh"],
         }],*/
     ],
+    customFields: {
+        BaiDuMapKey: '5hvFnIXmHKgIOCF7F4rRNVNfFDyllgvR',
+    },
     plugins: ['docusaurus-plugin-sass'],
 };
 

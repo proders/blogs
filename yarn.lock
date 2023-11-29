@@ -3457,11 +3457,6 @@
   dependencies:
     "@types/estree" "*"
 
-"@types/bmapgl@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.npmmirror.com/@types/bmapgl/-/bmapgl-0.0.7.tgz#005bd208b782f1c611964f50f58f792aa239b243"
-  integrity sha512-3R0wFbZtynfHBJq0v477amaNH3t2u2CzBo46ViIPDdOTEJJ+Ma/ql4X8tS2XjDZcZhDAr6QDWoqV8SZvp6STvA==
-
 "@types/body-parser@*":
   version "1.19.2"
   resolved "https://registry.npmmirror.com/@types/body-parser/-/body-parser-1.19.2.tgz"

@@ -1,11 +1,47 @@
 
+// 按钮样式
+.drawingPanel{
+    z-index: 999;
+    position: fixed;
+    top: 56px;
+    margin-left: 0.1rem;
+    padding: 1rem 1rem;
+    border-radius: .25rem;
+    background-color: #fff;
+    box-shadow: 0 2px 6px 0 rgba(27, 142, 236, 0.5);
+    .drawBtn {
+        width: 75px;
+        height: 30px;
+        background-color: #fff;
+        color: rgba(27, 142, 236, 1);
+        border:1px solid rgba(27, 142, 236, 1);
+        border-radius: 5px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+}
+
 .contentContent{
     :global{
+        .BMap_bubble_pop{
+            padding: 0;
+            text-align: center;
+
+            .BMap_bubble_center{
+                width: 300px;
+            }
+        }
         .BMap_cpyCtrl{
             display: none;
         }
         .anchorBL{
             display: none;
+        }
+        .shadow{
+            display: none;
+        }
+        .BMap_pop .BMap_top {
+            box-shadow: none;
         }
     }
 }
