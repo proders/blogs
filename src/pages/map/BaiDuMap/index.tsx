@@ -79,7 +79,7 @@ const BaiDuMap = (props: any) => {
                             center={new BMapGL.Point(106.513538,  29.583036 )}
                             enableScrollWheelZoom={true}
                             zoom={15}
-                            style={{height: 450}}
+                            style={{height:'57rem'}}
                             displayOptions={{
                                 skyColors: ['rgba(186, 0, 255, 0)', 'rgba(186, 0, 255, 0.2)'] //天空颜色
                             }}
