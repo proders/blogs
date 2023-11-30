@@ -22,10 +22,10 @@ function HomepageHeader() {
 
             <div className="container">
                 <h1 className="hero__title">{'辞暮'}</h1>
-                <p className="hero__subtitle">
+                <div className="hero__subtitle">
                     {/*{siteConfig.tagline}*/}
                     <TypingEffect text={siteConfig.tagline}/>
-                </p>
+                </div>
                 <div className={styles.buttons}>
                     <Link
                         style={{padding:0,border:0}}

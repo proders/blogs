@@ -7,7 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'proder',
-    tagline: '山海自有归期，\n' + '风雨自有相逢。',
+    // tagline: '山海自有归期，\n' + '风雨自有相逢。',
+    tagline:'勤奋是一种可以吸引一切美好事物的天然磁石',
     favicon: 'img/svg/avatar.svg',
 
     // Set the production url of your site here
@@ -75,12 +76,6 @@ const config = {
                     src: 'img/svg/avatar.svg',
                 },
                 items: [
-                    /*     {
-                           type: 'docSidebar',
-                           sidebarId: 'tutorialSidebar',
-                           position: 'left',
-                           label: 'Tutorial',
-                         },*/
                     {
                         to: '/docs/knowledgeStructure/',
                         label: '💼知识体系',
@@ -88,13 +83,8 @@ const config = {
                         logo: {
                             alt: '知识体系',
                             src: 'img/logo.svg',
-                            // srcDark?: string;
-                            // href?: string;
                             width: '100px',
                             height: '100px',
-                            // target?: string;
-                            // style?: object;
-                            // className?: string;
                         }
                     },
                     {

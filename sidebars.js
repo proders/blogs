@@ -38,6 +38,7 @@ const sidebars = {
   ],
   tutorialSidebar: [
     'introduction',
+      // vue
     {
       type: 'category',
       label: 'vue',
@@ -49,21 +50,49 @@ const sidebars = {
         keywords: ['guides'], //标签
       },
       items: [
-        // 'knowledgeStructure/vue/index',
         'knowledgeStructure/vue/test',
         'knowledgeStructure/vue/vue'
       ],
     },
+    // javaScript
+    {
+      type: 'category',
+      label: 'javaScript',
+      link: {
+        type: 'generated-index', // 引导页类型
+        title: 'javaScript', //名称
+        description: 'javaScript总结', //描述
+        slug: '/knowledgeStructure/docusaurus-javascript', //显示路径
+        keywords: ['guides'], //标签
+      },
+      items: [
+        'knowledgeStructure/javaScript/ES6',
+      ],
+    },
+      // node
+    {
+      type: 'category',
+      label: 'node',
+      link: {
+        type: 'generated-index', // 引导页类型
+        title: 'node', //名称
+        description: 'node', //描述
+        slug: '/knowledgeStructure/docusaurus-node', //显示路径
+        keywords: ['guides'], //标签
+      },
+      items: [
+        'knowledgeStructure/node/OBS',
+      ],
+    },
   ],
   log:[
-    // 'logInfo',
     {
       type: 'category',
       label: '2023-11',
       link: {
         type: 'generated-index', // 引导页类型
         title: '2023-11', //名称
-        description: '2023-11总结', //描述
+        description: '2023-11日记', //描述
         slug: '/log/2023-11', //显示路径
         keywords: ['guides'], //标签
       },
