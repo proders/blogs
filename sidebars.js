@@ -82,6 +82,7 @@ const sidebars = {
       },
       items: [
         'knowledgeStructure/node/OBS',
+        'knowledgeStructure/node/koa2',
       ],
     },
   ],
