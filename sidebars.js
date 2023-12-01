@@ -38,6 +38,21 @@ const sidebars = {
   ],
   tutorialSidebar: [
     'introduction',
+    // javaScript
+    {
+      type: 'category',
+      label: 'javaScript',
+      link: {
+        type: 'generated-index', // 引导页类型
+        title: 'javaScript', //名称
+        description: 'javaScript总结', //描述
+        slug: '/knowledgeStructure/docusaurus-javascript', //显示路径
+        keywords: ['guides'], //标签
+      },
+      items: [
+        'knowledgeStructure/javaScript/ES6',
+      ],
+    },
       // vue
     {
       type: 'category',
@@ -52,21 +67,6 @@ const sidebars = {
       items: [
         'knowledgeStructure/vue/test',
         'knowledgeStructure/vue/vue'
-      ],
-    },
-    // javaScript
-    {
-      type: 'category',
-      label: 'javaScript',
-      link: {
-        type: 'generated-index', // 引导页类型
-        title: 'javaScript', //名称
-        description: 'javaScript总结', //描述
-        slug: '/knowledgeStructure/docusaurus-javascript', //显示路径
-        keywords: ['guides'], //标签
-      },
-      items: [
-        'knowledgeStructure/javaScript/ES6',
       ],
     },
       // node
