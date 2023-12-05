@@ -7,14 +7,15 @@
     margin-left: 0.1rem;
     padding: 1rem 1rem;
     border-radius: .25rem;
-    background-color: #fff;
-    box-shadow: 0 2px 6px 0 rgba(27, 142, 236, 0.5);
+   /* background-color: #fff;
+    box-shadow: 0 2px 6px 0 rgba(27, 142, 236, 0.5);*/
     .drawBtn {
         width: 75px;
         height: 30px;
-        background-color: #fff;
-        color: rgba(27, 142, 236, 1);
-        border:1px solid rgba(27, 142, 236, 1);
+        background-color: #51c4d3;
+        color: #ffffff;
+        border:1px solid #51c4d3;
+        //border:1px solid rgba(27, 142, 236, 1);
         border-radius: 5px;
         margin: 0 5px;
         cursor: pointer;

@@ -10,6 +10,7 @@ import banner3 from "@site/static/img/banner/img_3.jpg";
 import redMapIcon from "@site/static/img/redFlagMap/icon-2.png";
 import styles from './index.module.scss'
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import BaseButton from "@site/src/components/BaseButton";
 
 
 
@@ -24,6 +25,7 @@ const BaiDuMap = (props: any) => {
         { id:'3' ,position:[106.552396,29.613392], title:'这是第三个mark',content:'内-------容',img: banner3},
         // 其他标记点
     ];
+    const [currentColor,setCurrentColor] = useState('#51c4d3')
     const getInfoWindow = (marker: any) => {
         const opts = {
             width: 340,     // 信息窗口宽度
@@ -67,9 +69,13 @@ const BaiDuMap = (props: any) => {
                 return (
                     <>
                         <div className={styles.drawingPanel}>
-                            <input onClick={()=>changeMapType('')} type="button" className={styles.drawBtn}  value="原始主题"/>
-                            <input onClick={()=>changeMapType('f42b5e908ca8f238e6fdf2faf6779899')} type="button" className={styles.drawBtn} value="眼眸主题" />
-                            <input onClick={()=>changeMapType('15ad7c1ac87c46576b6ad9e7ff3a3286')} type="button" className={styles.drawBtn} value="茶田主题" />
+                              {/**/}
+                          {/*  <BaseButton name={'原始主题'}></BaseButton> #51c4d3
+                            <BaseButton name={'眼眸主题'}></BaseButton> #16445e
+                            <BaseButton name={'茶田主题'}></BaseButton> rgb(168 237 193)*/}
+                            <input style={{background:currentColor,border:`1px solid ${currentColor}`}} onClick={()=>changeMapType('')} type="button" className={styles.drawBtn}  value="原始主题"/>
+                            <input style={{background:currentColor,border:`1px solid ${currentColor}`}} onClick={()=>changeMapType('f42b5e908ca8f238e6fdf2faf6779899')} type="button" className={styles.drawBtn} value="眼眸主题" />
+                            <input style={{background:currentColor,border:`1px solid ${currentColor}`}} onClick={()=>changeMapType('15ad7c1ac87c46576b6ad9e7ff3a3286')} type="button" className={styles.drawBtn} value="茶田主题" />
                         </div>
                         <Map
                             className={styles.contentContent}
