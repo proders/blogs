@@ -21,4 +21,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.TOKEN }}
+          GIT_USER: ${{ secrets.GIT_USER }}
           publish_dir: ./build
+          USE_SSH: true
