@@ -28,13 +28,6 @@ const sidebars = {
         // 'life/travel/WugongMountain'
       ],
     },
-    {
-      type: 'category',
-      label: '旅游',
-      items: [
-        'life/travel/WugongMountain'
-      ],
-    },
   ],
   tutorialSidebar: [
     'introduction',
@@ -116,6 +109,20 @@ const sidebars = {
       items: [
         'log/2023-12/12',
         'log/2023-12/19',
+      ],
+    },
+    {
+      type: 'category',
+      label: '2024-2',
+      link: {
+        type: 'generated-index', // 引导页类型
+        title: '2024-2', //名称
+        description: '2024-2总结', //描述
+        slug: '/log/2024-2', //显示路径
+        keywords: ['guides'], //标签
+      },
+      items: [
+        'log/2024-2/4',
       ],
     },
   ]

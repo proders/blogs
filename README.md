@@ -38,3 +38,20 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+文章标题字体样式
+```
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.4;
+    color:#151515;
+    <font color="#666" size="3" face="华文彩云">
+```
+
+内容字体样式
+```
+    color: #666;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+```
