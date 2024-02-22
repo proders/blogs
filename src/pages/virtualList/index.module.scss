@@ -1,0 +1,28 @@
+
+.virtualListContainers{
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+    border: #00a1ba 1px solid;
+
+    .virtualContainer{
+        height: 100%;
+        width: 100%;
+        overflow-y: auto;
+        .virtualList{
+            width: 100%;
+            .virtualList_item{
+                height: 100px;
+                width: 100%;
+                border: #1b1b1d 1px solid;
+            }
+        }
+    }
+
+}
+
+.virtualList_item{
+    height: 100px;
+    width: 100%;
+    border: #1b1b1d 1px solid;
+}

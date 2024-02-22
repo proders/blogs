@@ -9,6 +9,7 @@ import BorderLight from "@site/src/components/BorderLight";
 import HighLight from "@site/src/components/HighLight";
 import Confetti from "@site/src/components/Confetti";
 import TypingEffect from "@site/src/components/TypingEffect";
+import VirtualList from "@site/src/pages/virtualList";
 
 
 function HomepageHeader() {
@@ -62,6 +63,9 @@ export default function Home(): JSX.Element {
                 <BrowserWindow>测试哈哈哈哈</BrowserWindow>
                 <HighLight color='#25c2a0'>高亮当前文本</HighLight>
                 <Confetti/>
+
+                <VirtualList />
+                <br/>
             </main>
         </Layout>
     );
