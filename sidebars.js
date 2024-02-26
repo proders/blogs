@@ -123,6 +123,7 @@ const sidebars = {
       },
       items: [
         'log/2024-2/4',
+        'log/2024-2/26',
       ],
     },
   ]
