@@ -10,6 +10,7 @@ import HighLight from "@site/src/components/HighLight";
 import Confetti from "@site/src/components/Confetti";
 import TypingEffect from "@site/src/components/TypingEffect";
 import VirtualList from "@site/src/pages/virtualList";
+import PhotoFootprints from "@site/src/pages/photoFootprints";
 
 
 function HomepageHeader() {
@@ -64,7 +65,7 @@ export default function Home(): JSX.Element {
                 <HighLight color='#25c2a0'>高亮当前文本</HighLight>
                 <Confetti/>
 
-                <VirtualList />
+                <PhotoFootprints />
                 <br/>
             </main>
         </Layout>
