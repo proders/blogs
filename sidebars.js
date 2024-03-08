@@ -126,6 +126,20 @@ const sidebars = {
         'log/2024-2/26',
       ],
     },
+    {
+      type: 'category',
+      label: '2024-3',
+      link: {
+        type: 'generated-index', // 引导页类型
+        title: '2024-3', //名称
+        description: '2024-3总结', //描述
+        slug: '/log/2024-3', //显示路径
+        keywords: ['guides'], //标签
+      },
+      items: [
+        'log/2024-3/8',
+      ],
+    },
   ]
 };
 
