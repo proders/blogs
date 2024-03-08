@@ -1,26 +1,33 @@
-name: Build HTML
+name: Deploy Stable Version
+
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Use Node 18
-        uses: actions/setup-node@v3
+      - name: Checkout code
+        uses: actions/checkout@v4
         with:
-          node-version: 18
-      - name: Build HTML
-        run: |
-          npm install
-          npm run build
-      - name: Deploy
+          ref: main
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 21
+      - name: Install dependencies
+        run: npm install
+      - name: Build project
+        run: npm run build
+      - name: Deploy to pages branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.TOKEN }}
-          GIT_USER: ${{ secrets.GIT_USER }}
-          publish_dir: ./build
-          USE_SSH: true
+          publish_dir: ./dist
+          publish_branch: pages
