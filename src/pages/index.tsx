@@ -9,7 +9,6 @@ import BorderLight from "@site/src/components/BorderLight";
 import HighLight from "@site/src/components/HighLight";
 import Confetti from "@site/src/components/Confetti";
 import TypingEffect from "@site/src/components/TypingEffect";
-import VirtualList from "@site/src/pages/virtualList";
 import PhotoFootprints from "@site/src/pages/photoFootprints";
 
 
