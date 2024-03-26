@@ -1,0 +1,14 @@
+.imgMain{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+
+  .image{
+    flex: 0 0 calc(33.333% - 10px);
+    margin-bottom: 8px; /* 图片之间的垂直间隔 */
+    width: 33%; /* 图片最大宽度为容器宽度 */
+    height: auto; /* 图片高度自动调整 */
+    cursor: pointer;
+  }
+}

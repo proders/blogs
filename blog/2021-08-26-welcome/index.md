@@ -1,5 +1,6 @@
 ---
 slug: welcome
+date: 2024-3-25
 title: Welcome
 authors: [slorber, yangshun]
 tags: [facebook, hello, docusaurus]
