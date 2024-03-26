@@ -58,6 +58,7 @@ const config = {
                     editUrl:
                         'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                     include: ['**/*.{md,mdx}'],
+                    blogSidebarCount: 'ALL',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),

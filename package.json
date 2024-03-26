@@ -22,6 +22,7 @@
     "@docusaurus/theme-search-algolia": "^3.0.0",
     "@easyops-cn/docusaurus-search-local": "^0.36.0",
     "@mdx-js/react": "^1.6.22",
+    "add": "^2.0.6",
     "clsx": "^1.2.1",
     "css-loader": "^6.8.1",
     "docusaurus-plugin-sass": "^0.2.5",
@@ -31,12 +32,14 @@
     "react": "^17.0.2",
     "react-bmapgl": "^0.2.26",
     "react-dom": "^17.0.2",
+    "react-photo-view": "^1.2.4",
     "react-slick": "^0.29.0",
     "sass": "^1.67.0",
     "sass-loader": "^13.3.2",
     "slick-carousel": "^1.8.1",
     "style-loader": "^3.3.3",
-    "typed.js": "^2.1.0"
+    "typed.js": "^2.1.0",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.4.1",
