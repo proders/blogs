@@ -10,6 +10,7 @@ import HighLight from "@site/src/components/HighLight";
 import Confetti from "@site/src/components/Confetti";
 import TypingEffect from "@site/src/components/TypingEffect";
 import PhotoFootprints from "@site/src/pages/photoFootprints";
+import ImageLayout from "@site/src/pages/List";
 
 
 function HomepageHeader() {
@@ -64,6 +65,7 @@ export default function Home(): JSX.Element {
                 <Confetti/>
 
                 <PhotoFootprints />
+                <ImageLayout />
                 <br/>
             </main>
         </Layout>
