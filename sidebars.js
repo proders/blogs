@@ -157,6 +157,21 @@ const sidebars = {
         'log/2024-11/15',
       ],
     },
+   //2025年1月
+    {
+      type: 'category',
+      label: '2025-1',
+      link: {
+        type: 'generated-index', // 引导页类型
+        title: '2025-1', //名称
+        description: '2025-1总结', //描述
+        slug: '/log/2025-1', //显示路径
+        keywords: ['guides'], //标签
+      },
+      items: [
+        'log/2025-1/13',
+      ],
+    },
   ]
 };
 
