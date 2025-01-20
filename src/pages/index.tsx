@@ -11,6 +11,7 @@ import Confetti from "@site/src/components/Confetti";
 import TypingEffect from "@site/src/components/TypingEffect";
 import PhotoFootprints from "@site/src/pages/photoFootprints";
 import ImageLayout from "@site/src/pages/List";
+import InfiniteRoll from "@site/src/components/InfiniteRoll";
 
 
 function HomepageHeader() {
@@ -65,7 +66,8 @@ export default function Home(): JSX.Element {
                 <Confetti/>
 
                 <PhotoFootprints />
-                <ImageLayout />
+                <InfiniteRoll />
+                {/*<ImageLayout />*/}
                 <br/>
             </main>
         </Layout>
