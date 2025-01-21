@@ -1,33 +1,33 @@
-name: Deploy Stable Version
+name: Deploy Docusaurus to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    branches: [main]  # 监听 main 分支的推送
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 允许向 gh-pages 分支推送代码
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          ref: main
-      - name: Set up Node.js
+
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 21
+          node-version: '20'  # 根据项目需求选择 Node.js 版本
+
       - name: Install dependencies
         run: npm install
-      - name: Build project
-        run: npm run build
-      - name: Deploy to pages branch
-        uses: peaceiris/actions-gh-pages@v3
+
+      - name: Build Docusaurus
+        run: npm run build  # 生成静态文件到 build/ 目录
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.TOKEN }}
-          publish_dir: ./dist
-          publish_branch: pages
+          branch: gh-pages  # 部署到 gh-pages 分支
+          folder: build     # Docusaurus 的构建目录
+          clean: true       # 部署前清理旧文件
