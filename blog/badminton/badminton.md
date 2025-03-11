@@ -1,5 +1,4 @@
 ---
-id: badminton
 slug: badminton
 title: 羽毛球🏸
 date: 2024-3-24

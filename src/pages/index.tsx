@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
@@ -10,13 +10,10 @@ import HighLight from "@site/src/components/HighLight";
 import Confetti from "@site/src/components/Confetti";
 import TypingEffect from "@site/src/components/TypingEffect";
 import PhotoFootprints from "@site/src/pages/photoFootprints";
-import ImageLayout from "@site/src/pages/List";
 import InfiniteRoll from "@site/src/components/InfiniteRoll";
-
 
 function HomepageHeader() {
     const {siteConfig} = useDocusaurusContext();
-
     return (
         <div className={styles.heroBanner}>
             <div className={styles.leftSvg}>
@@ -44,6 +41,7 @@ function HomepageHeader() {
             <div className={styles.rightSvg}>
                 <img src={'img/svg/color-scheme-right.svg'} alt={'right'}/>
             </div>
+
         </div>
         /*   <header className={clsx('hero hero--primary', styles.heroBanner)}>
 
@@ -51,8 +49,11 @@ function HomepageHeader() {
              */
     );
 }
+
 export default function Home(): JSX.Element {
     const {siteConfig} = useDocusaurusContext();
+
+
     return (
         <Layout
             title={`${siteConfig.title}`}
@@ -67,7 +68,7 @@ export default function Home(): JSX.Element {
 
                 <PhotoFootprints />
                 <InfiniteRoll />
-                {/*<ImageLayout />*/}
+
                 <br/>
             </main>
         </Layout>

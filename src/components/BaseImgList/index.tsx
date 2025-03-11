@@ -1,3 +1,6 @@
+/**
+ * 图片预览控件
+ */
 import React from "react"
 import styles from './styles.module.scss'
 import {PhotoProvider, PhotoView} from 'react-photo-view';

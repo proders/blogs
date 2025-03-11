@@ -89,6 +89,7 @@ const config = {
                             height: '100px',
                         }
                     },
+
                     {
                         to: '/docs/life/',
                         label: '👨🏻‍🌾生活',
@@ -100,8 +101,13 @@ const config = {
                         position: 'left',
                     },
                     {
+                        to: '/photoAlbum/',
+                        label: '📸相册',
+                        position: 'left',
+                    },
+                    {
                         to: '/map/',
-                        label: '👨🏻‍🌾map',
+                        label: '🚴map',
                         position: 'left',
                     },
                     {to: '/blog', label: '🚴Blog', position: 'left'},
