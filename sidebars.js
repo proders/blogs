@@ -185,6 +185,7 @@ const sidebars = {
       },
       items: [
         'log/2025-3/11',
+        'log/2025-3/21',
       ],
     },
   ]
