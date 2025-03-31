@@ -1,6 +1,6 @@
 import {Gallery} from "react-grid-gallery";
 import React, {useState} from "react";
-import {imgList} from "@site/src/pages/photoAlbum/twentyThree";
+import {imgList} from "@site/src/pages/exclude/_ImgList";
 import Layout from "@theme/Layout";
 import {PhotoSlider} from "react-photo-view";
 import './style.css'

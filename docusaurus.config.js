@@ -101,7 +101,7 @@ const config = {
                         position: 'left',
                     },
                     {
-                        to: '/photoAlbum/',
+                        to: '/photoAlbum',
                         label: '📸相册',
                         position: 'left',
                     },

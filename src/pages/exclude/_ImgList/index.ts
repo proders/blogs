@@ -1,5 +1,5 @@
 
-export const imgList =[
+export const  imgList =    [
     {
         src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
         original: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
