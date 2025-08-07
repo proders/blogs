@@ -189,6 +189,21 @@ const sidebars = {
         'log/2025-3/28',
       ],
     },
+      // 2025-8
+    {
+      type: 'category',
+      label: '2025-8',
+      link: {
+        type: 'generated-index', // 引导页类型
+        title: '2025-8', //名称
+        description: '2025-8总结', //描述
+        slug: '/log/2025-8', //显示路径
+        keywords: ['guides'], //标签
+      },
+      items: [
+        'log/2025-8/7',
+      ],
+    },
   ]
 };
 
