@@ -234,6 +234,20 @@ const sidebars = {
         'log/2026-2/2',
       ],
     },
+    {
+      type: 'category',
+      label: '2026-4',
+      link: {
+        type: 'generated-index', // 引导页类型
+        title: '2026-4', //名称
+        description: '2026-4总结', //描述
+        slug: '/log/2026-4', //显示路径
+        keywords: ['guides'], //标签
+      },
+      items: [
+        'log/2026-4/1',
+      ],
+    },
   ]
 };
 
